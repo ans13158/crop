@@ -26,7 +26,7 @@
 }
 
 @font-face  {
-    font-family: palatino linotype;
+    font-family: 'palatino linotype';
     src : url(../fonts/Palatino Linotype.ttf);
 }
 .*{

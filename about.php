@@ -70,7 +70,7 @@ require "header.php" ;
                     </ul>
                 </div>
                 <div id="stuck_container" class="stuck_container">
-                    <nav class="navbar navbar-default" style="left:185px;border-radius: 30px 0 30px 0;width:980px;background-color:rgba(104, 176, 77, 1);margin-bottom: 1px;">
+                    <nav class="navbar navbar-default" style="left:185px;border-radius: 30px 0 30px 0;width:980px;background-color:rgba(104, 176, 77, 1);margin-bottom: 2px;">
                         <div class="container-fluid">
                             <ul class="navbar-nav sf-menu" data-type="navbar" style="background-color:rgba(104, 176, 77, 1);height: 20px;line-height: 10px;padding-bottom: 10px;padding-top: 0px ">
                                 <li  style="border-radius: 30px 0 0 0;width:162px;margin-left:-13px">
@@ -99,8 +99,8 @@ require "header.php" ;
             </header>
             <main >
                 <section class="well5">
-                    <div class="container" style="padding:0px; width: 100%; overflow-x: hidden;margin-bottom: 20px; ">
-                        <div class="row" style="margin-top: -50px;">
+                    <div class="container-fluid" style="padding:0px; width: 100%; overflow-x: hidden; ">
+                        <div class="row">
 
                             <article>
 
@@ -117,11 +117,11 @@ require "header.php" ;
             <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
             <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
         </div>
-        <div data-u="slides" style="cursor: default; position: relative; top: -20px; left: 0px; width: 1370px; height: 
+        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1370px; height: 
         350px; overflow: hidden;">
             <div data-p="225.00">
 
-                <div data-u="caption" data-t="0" style="position:absolute;top:0px;left:0px;width:1370px;height:620px;z-index:0;">
+                <div data-u="caption" data-t="0" style="position:absolute;top:0px;left:0px;width:1370px;height:220px;z-index:0;">
                     <img style="position:absolute;top:0px;left:0px;width:1370px;height:320px;z-index:0;" src="images/about/carousal1.jpg" />
                     <div style="position:absolute;top:10px;left:245px;width:379px;height:213px;z-index:0; overflow:none; ">
                     <div style="position:absolute;top:80px;left:50px;width:680px;height:60px;z-index:0;font-size:55px;color:#ffffff;line-height:60px;color:white; font-family: serif;padding: 5px" class="text-center">ABOUT US<br><br><br><br> </div>   <br><br>
@@ -161,22 +161,35 @@ require "header.php" ;
                         <div class="container-fluid" style="background: white">
                             <div class="row">
 
-                                <div class="col-md-12 col-sm-12 col-xs-12 text-center wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
+                                <div class="col-md-12 col-sm-12 col-xs-12 text-center wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s" >
                                     <br>
-                                    <h4 style="color:#1C8A43;"> RESEARCH & DEVELOPMENT</h4> ​
+                                    <h4 style="font-size: 20px;line-height: 1.2em;text-align: center;margin-top: -45px;word-spacing: 6px;">
+                                    <span style="font-size: 20px">
+                                    <span style="color:#1C8A43">
+                                        <span style="font-weight: bold">
+                                            <span class="stretch" style="font-family: georgia, 'palatino linotype',serif">
+                                                RESEARCH& DEVELOPMENT
+
+                                            </span>
+                                        </span>
+                                    </span>
+                                    </span>
+                                    </h4>
                                 </div>
-                                <div class="col-md-12 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
-                                    <p>Research with a market Focus, breeding programs that are dedicated on the needs of the vegetable growers. To achieve this Cropzonia is working closely together with the peers out of the vegetable industry worldwide. Our goal is to introduce new high yielding F1 hybrids with innovative traits which will bring added value to the participants in the chain. Cropzonia’s strategy is to maintain technological leadership by using marker assisted breeding technologies.We have well established Breeding & Product testing facilities in Vegetables crops in Bangalore. We test the new generation hybrids in many locations across India. We have well equipped highly qualified Breeding and Technical team with years of experience and expertise in Breeding for Vegetable crops. We invest a significant percentage of turnover on Research and Development to ensure a continue stream of improved products that meet farmers expectation. We commit to deliver the best products to remain ahead of competition and delight the farmers with our product experiences.</p>
+                                </div>
+                                <div class="wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s" style="letter-spacing: normal;padding-left: 50px;padding-right: 55px;margin-top: 22px;word-spacing: normal;">
+                                       
+                                    <p style="text-align:justify;font-family: georgia, 'palatino linotype', serif; font-size:15px;color:#000000;line-height: normal;">Research with a market Focus, breeding programs that are dedicated on the needs of the vegetable growers. To achieve this Cropzonia is working closely together with the peers out of the vegetable industry worldwide. Our goal is to introduce new high yielding F1 hybrids with innovative traits which will bring added value to the participants in the chain. Cropzonia’s strategy is to maintain technological leadership by using marker assisted breeding technologies.We have well established Breeding & Product testing facilities in Vegetables crops in Bangalore. We test the new generation hybrids in many locations across India. We have well equipped highly qualified Breeding and Technical team with years of experience and expertise in Breeding for Vegetable crops. We invest a significant percentage of turnover on Research and Development to ensure a continue stream of improved products that meet farmers expectation. We commit to deliver the best products to remain ahead of competition and delight the farmers with our product experiences.</p>
                                 </div>
                             </div>
                             <br>
                             <br>
-                            <div class="col-md-6 col-sm-6 col-xs-6 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.6s">
-                                <img src="images/about/r&d1.jpg" style="height: 350px">
+                            <div class="col-md-6 col-sm-6 col-xs-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s" style="margin-top:-27px;padding-left: 68px;display: inline">
+                                <img src="images/about/r&d1.jpg" style="height: 337px;width: 584px;object-fit: cover;">
                             </div>
 
-                            <div class="col-md-6 col-sm-6 col-xs-6 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.6s">
-                                <img src="images/about/r&d2.jpg" style="height: 350px">
+                            <div class="col-md-6 col-sm-6 col-xs-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s" style="margin-top:-27px;margin-left: -30px;display: inline">
+                                <img src="images/about/r&d2.jpg" style="height: 337px;width:621px;object-fit: cover;">
                             </div>
                         </div>
                         <br>
