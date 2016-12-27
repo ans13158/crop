@@ -71,7 +71,7 @@ require "header.php" ;
                     </ul>
                 </div>
                 <div id="stuck_container" class="stuck_container">
-                    <nav class="navbar navbar-default" style="left:185px;border-radius: 30px 0 30px 0;width:980px;background-color:rgba(104, 176, 77, 1)">
+                    <nav class="navbar navbar-default" style="left:185px;border-radius: 30px 0 30px 0;width:980px;background-color:rgba(104, 176, 77, 1);margin-bottom: -1px;">
                         <div class="container-fluid">
                             <ul class="navbar-nav sf-menu" data-type="navbar" style="background-color:rgba(104, 176, 77, 1);height: 20px;line-height: 10px;padding-bottom: 10px;padding-top: 0px ">
                                 <li class="active" style="border-radius: 30px 0 0 0;background-color: #1C8A43;width:162px;margin-left:-13px">
@@ -109,7 +109,7 @@ require "header.php" ;
 
   
   <!-- CAROUSAL START  --> 
-    <div id="jssor_1" style="position: relative; margin: 0 auto; top: -13px; left: 0px; width: 1300px; height: 425px; overflow: hidden; visibility: hidden;background-color: transparent;">
+    <div id="jssor_1" style="position: relative; margin: 0 auto; top: -13px; left: 0px; width: 1300px; height: 450px; overflow: hidden; visibility: hidden;background-color: transparent;">
         <!-- Loading Screen -->
         <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
             <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>

@@ -70,7 +70,7 @@ require "header.php" ;
                     </ul>
                 </div>
                 <div id="stuck_container" class="stuck_container">
-                    <nav class="navbar navbar-default" style="left:185px;border-radius: 30px 0 30px 0;width:980px;background-color:rgba(104, 176, 77, 1)">
+                    <nav class="navbar navbar-default" style="left:185px;border-radius: 30px 0 30px 0;width:980px;background-color:rgba(104, 176, 77, 1);margin-bottom: 1px;">
                         <div class="container-fluid">
                             <ul class="navbar-nav sf-menu" data-type="navbar" style="background-color:rgba(104, 176, 77, 1);height: 20px;line-height: 10px;padding-bottom: 10px;padding-top: 0px ">
                                 <li  style="border-radius: 30px 0 0 0;width:162px;margin-left:-13px">
@@ -99,8 +99,8 @@ require "header.php" ;
             </header>
             <main >
                 <section class="well5">
-                    <div class="container-fluid" style="padding:0px; width: 100%; overflow-x: hidden; ">
-                        <div class="row">
+                    <div class="container" style="padding:0px; width: 100%; overflow-x: hidden;margin-bottom: 20px; ">
+                        <div class="row" style="margin-top: -50px;">
 
                             <article>
 
@@ -117,11 +117,11 @@ require "header.php" ;
             <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
             <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
         </div>
-        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1370px; height: 
+        <div data-u="slides" style="cursor: default; position: relative; top: -20px; left: 0px; width: 1370px; height: 
         350px; overflow: hidden;">
             <div data-p="225.00">
 
-                <div data-u="caption" data-t="0" style="position:absolute;top:0px;left:0px;width:1370px;height:220px;z-index:0;">
+                <div data-u="caption" data-t="0" style="position:absolute;top:0px;left:0px;width:1370px;height:620px;z-index:0;">
                     <img style="position:absolute;top:0px;left:0px;width:1370px;height:320px;z-index:0;" src="images/about/carousal1.jpg" />
                     <div style="position:absolute;top:10px;left:245px;width:379px;height:213px;z-index:0; overflow:none; ">
                     <div style="position:absolute;top:80px;left:50px;width:680px;height:60px;z-index:0;font-size:55px;color:#ffffff;line-height:60px;color:white; font-family: serif;padding: 5px" class="text-center">ABOUT US<br><br><br><br> </div>   <br><br>
