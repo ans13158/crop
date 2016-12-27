@@ -10,7 +10,7 @@
 
             var jssor_1_options = {
               //$AutoPlay: true,
-              $SlideDuration: 300,
+              $SlideDuration: 300000000,
               $SlideEasing: $Jease$.$OutQuint,
               $CaptionSliderOptions: {
                 $Class: $JssorCaptionSlideo$,
@@ -35,7 +35,7 @@
                     jssor_1_slider.$ScaleWidth(refSize);
                 }
                 else {
-                    window.setTimeout(ScaleSlider, 30);
+                    window.setTimeout(ScaleSlider, 30000);
                 }
             }
             ScaleSlider();
