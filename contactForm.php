@@ -1,34 +1,14 @@
-<head>
-    <link rel="stylesheet" type="text/css" href="css/form_style.css">
-</head>
-<form class="form-horizontal wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
-    <div class="form-group">
-        <label class="control-label col-sm-2" for="name">Name:</label>
-        <div class="col-sm-10">
-            <input type="text" class="form-control" id="name" placeholder="Enter Name">
-        </div>
-    </div>
-    <div class="form-group">
-        <label class="control-label col-sm-2" for="email">Email:</label>
-        <div class="col-sm-10">
-            <input type="email" class="form-control" id="email" placeholder="Enter email">
-        </div>
-    </div>
-    <div class="form-group">
-        <label class="control-label col-sm-2" for="subject">Subject:</label>
-        <div class="col-sm-10">
-            <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter subject for the message">
-        </div>
-    </div>
-    <div class="form-group">
-        <label class="control-label col-sm-2" for="message">Message:</label>
-        <div class="col-sm-10">
-            <textarea class="form-control" rows="5" id="message" name="message" placeholder="Enter your message"></textarea>
-        </div>
-    </div>
-    <div class="form-group">
-        <div class="col-sm-offset-2 col-sm-10">
-            <button type="submit" class="btn btn-default">Submit</button>
-        </div>
-    </div>
-</form>
+<form>
+                                 <input type="text" name="name" placeholder="Name" style="border:1px solid rgba(94, 115, 30, 1);width: 475px;margin-bottom:  5px;box-sizing: border-box;padding: 5px;">
+
+                                 <input type="email" name="email" placeholder="Email" style="border:1px solid rgba(94, 115, 30, 1);width: 475px;padding: 5px;box-sizing: border-box;margin-bottom:  5px;">
+
+                                 <input type="text" name="subject" placeholder="Subject" style="border:1px solid rgba(94, 115, 30, 1);width: 475px;padding: 5px;box-sizing: border-box;margin-bottom:  5px;">
+
+                                 <textarea name="message" placeholder="Message" style="border:1px solid rgba(94, 115, 30, 1);width: 475px;padding: 5px;box-sizing: border-box;margin-bottom:  5px;min-height: 130px;" ></textarea>
+
+                                    
+                                     <button style="background-color: rgba(255, 200, 2, 1);margin-left: 430px;border: 0px;padding: 5px;font-size: 16px;">Send
+                                     </button>
+                                
+                           </form>

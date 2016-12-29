@@ -661,7 +661,7 @@ main {
 }
 
 .career-info  {
-    position: absolute;
+    position: relative;
     top:0px;
     margin-top: 36px;
     height: 160px;
