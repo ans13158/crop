@@ -661,20 +661,15 @@ main {
 }
 
 .career-info  {
-    margin-top: 50px;
-    height: 200px;
-    width:250px;
-    margin-right: 40px;
-    margin-bottom: 50px;
+    position: absolute;
+    top:0px;
+    margin-top: 36px;
+    height: 160px;
+    width:275px;
+    padding:2px; 
+    
 }
 
-@media (max-width: 800px)  {
-    .career-info  {
-    text-align: center;
-    margin-left: 50px;
-    background-color: green;
-    }
-}
 
 footer {
     background: #f9f9f9;

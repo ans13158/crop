@@ -347,7 +347,8 @@ require "header.php" ;
 
             <div class="insta_iframe container-fluid col-md-8 col-sm-12 col-xs-12 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.4s" style="background: transparent;margin-left: 50px">
             <br><br>
-                <iframe src="https://instagram.wixapps.net/widget?cacheKiller=1481998495927&compId=comp-iw4wmn7l&deviceType=desktop&instance=SBNyAodcYv7f8dWeVQ2i_9wlJXtcDOqq0I9rA75XoS8.eyJpbnN0YW5jZUlkIjoiMjA5NTMyNTMtOWI4YS00YTE5LWEzYzctNmNjM2UwNmI2MzljIiwic2lnbkRhdGUiOiIyMDE2LTEyLTE3VDE4OjE0OjQ5LjM4NVoiLCJ1aWQiOm51bGwsImlwQW5kUG9ydCI6IjE0LjEzOS4yMjkuNDMvNDk2ODgiLCJ2ZW5kb3JQcm9kdWN0SWQiOm51bGwsImRlbW9Nb2RlIjpmYWxzZSwiYWlkIjoiMDYzNmNhYWUtNjg3NS00NjNiLTkxODMtY2RmNTMwZGRkYjE2IiwiYmlUb2tlbiI6ImQ2N2VhZTgyLTIzNWItMGU4ZS0xZjc2LWYxYWU5ZDc0YWY2NiIsInNpdGVPd25lcklkIjoiZjA1MjFmZmYtMTVlMy00NjMwLWEyYWYtMjMyYThlYzFjMTU4In0&locale=en&viewMode=site&width=746#/" style="overflow:scroll;background: transparent;" height="630" width="800"></iframe>
+                <iframe ><script src="//www.powr.io/powr.js" external-type="powr_to_wix"></script> 
+ <div class="powr-twitter-feed" id="00023689_1482939777"></div>" style="overflow:scroll;background: transparent;" height="630" width="800"></iframe>
                     <br><br>
             </div>
 
