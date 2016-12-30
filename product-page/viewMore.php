@@ -1,60 +1,99 @@
 <?php
 require "header.php" ;
 ?>
-    <title>View Product</title>
+        <style type="text/css">
+        .navbar-nav  >li:hover  {
+            background-color: #1C8A43;
+        }
 
-    </head>
+        .navbar-nav>li.login:hover  {
+            background-color: #1C8A43;
+            /*padding-left: 70px;*/
+            border-radius: 0 0 0px 0;
+            margin-right: -20px;
+            /*width:580px;*/
 
-   <body style="background:url(../images/dew.peg);padding: 0px;margin-top: 0px;">
-        <div class="page container" style="padding: 0px;margin-top:0px" style="width: 80%">
 
-            <header>
-                <div class="container well clearfix">
-                    <a href="../index.php">
-                        <img src="../images/logo-img.jpg">
-                    </a>
+        }
+    </style>
+        <title> View Products</title>
 
-                    <ul class="inline-list">
-                        <li>
-                            <a class="fa fa-facebook" href="https://www.facebook.com/cropzoniaseeds/"></a>
-                        </li>
-                        <li>
-                            <a class="fa fa-twitter" href="https://twitter.com/CropzoniaSeeds"></a>
-                        </li>
-                        <li>
-                            <a class="fa fa-instagram" href="https://www.instagram.com/cropzoniaseeds/?hl=en"></a>
-                        </li>
-                        <li>
-                            <a class="fa fa-linkedin" href="https://www.linkedin.com/company/cropzonia-seeds-private-limited?trk=biz-companies-cym"></a>
-                        </li>
-                    </ul>
-                </div>
-                <div id="stuck_container" class="stuck_container" style="height: 10px;">
-                    <nav class="container navbar navbar-static-top navbar" style="width:100%;background-color:#91b868; color:white;border-radius: 10px;height: 15px;  ">
-                        <div class="container">
-                            <ul class="navbar-nav sf-menu" data-type="navbar">
-                                <li>
-                                    <a href=".././">Home</a>
-                                </li>
-                                <li>
-                                    <a href="../about.php">About us</a>
+        </head>
 
-                                    <li class="active">
-                                        <a href="../products.php">Products</a>
+        <body style="background-color: white" >
+            <div class="page container" style="padding: 0px;margin-top:0px" style="width: 80%;background-color: transparent;">
+
+                <header>
+                    <div class="container well">
+                        <a href="index.php" style="margin-left: 188px;">
+                            <img src="images/logo-img.jpg">
+                        </a>
+
+
+                        <ul class="inline-list" style="margin-bottom: 0px;">
+                            <li>
+                                <a href="https://www.instagram.com/cropzoniaseeds/?hl=en">
+                                    <img src="images/insta-logo.png">
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://twitter.com/CropzoniaSeeds">
+                                    <img src="images/logo-twitter.png">
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="">
+                                    <img src="images/logo-youtube.png">
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.linkedin.com/company/cropzonia-seeds-private-limited?trk=biz-companies-cym">
+                                    <img src="images/logo-linkedin.png">
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.facebook.com/cropzoniaseeds/">
+                                    <img src="images/fb-logo.png">
+                                </a>
+                            </li>
+                            
+                            
+                            
+                        </ul>
+                    </div>
+                    <div id="stuck_container" class="stuck_container">
+                        <nav class="navbar navbar-default" style="left:75px;border-radius: 30px 0 30px 0;width:980px;background-color:rgba(104, 176, 77, 1)">
+                            <div class="container-fluid">
+                                <ul class="navbar-nav sf-menu" data-type="navbar" style="background-color:rgba(104, 176, 77, 1);height: 20px;line-height: 20px;">
+                                    <li  style="border-radius: 30px 0 0 0;width:162px;margin-left:-13px">
+                                        <a href="./" style="color:white;font-size: 16px;padding: 0 10px;font-family: clarendon, serif;height: 20px;width:100%" >HOME</a>
                                     </li>
-                                    <li>
-                                        <a href="../careers.php">Careers</a>
-                                    </li>
-                                    <li>
-                                        <a href="../contacts.php">Contact Us</a>
-                                    </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-            </header>
+                                    <li style="width: 162px;padding-left:7px; ">
+                                        <a href="about.php" style="color:white;font-size: 16px;padding: 0 10px;font-family: clarendon, serif;">ABOUT US</a>
 
-<main>
+                                        <li class="active" style="width: 163px;padding-left:7px;"> 
+                                            <a href="products.php" style="color:white;font-size: 16px;padding: 0 10px;font-family: clarendon, serif;">PRODUCT</a>
+                                        </li>
+                                        <li  style="width: 163px;padding-left:7px;">
+                                            <a href="careers.php" style="color:white;font-size: 16px;padding: 0 10px;font-family: clarendon, serif;">CAREERS</a>
+                                        </li>
+                                        <li   style="width: 163px;padding-left:7px;">
+                                            <a href="contacts.php" style="color:white;font-size: 16px;padding: 0 0px;font-family: clarendon, serif;">CONTACT US</a>
+                                        </li>
+
+                                        <li class="login" style="width:140px;padding-left: 30px; ">
+                                            <a href="" style="color:white;font-size: 16px;padding: 0 10px;font-family: clarendon, serif;">LOGIN</a>
+                                        </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </header>
+                <main >
                 <section class="well8 ">
                     <div class="container-fluid">
                         

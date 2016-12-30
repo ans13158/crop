@@ -29,6 +29,11 @@
     font-family: 'palatino linotype';
     src : url(../fonts/Palatino Linotype.ttf);
 }
+
+@font-face  {
+    font-family: signika;
+    src : url(../fonts/Signika-Light.otf) format("opentype");
+}
 .*{
     padding:0px;
     margin:0px;
@@ -515,9 +520,7 @@ screen resize */
     margin-left: 45px;
 }
 
-.contact-info address {
-    line-height: 31px;
-}
+    
 
 .contact-info dd+dt {
     clear: both;

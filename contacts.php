@@ -98,60 +98,90 @@ require "header.php" ;
             </header>
             <main >
                 <section class="well8 ">
-                    <div class="container-fluid">
+                    <div class="container">
                         
                         
                         <div class="row offs">
                             <div class="col-md-12 col-sm-12 col-xs-12 center991 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
                                 <br><br>
-                            <div class="col-md-5 col-sm-12 col-xs-12   wow fadeInLeft table-responsive" data-wow-duration="2s" data-wow-delay="0.2s">
-                                    <h4 style="color:#91b868">
-                                        CONTACT US </h4>
+                            <div class="col-md-5 col-sm-12 col-xs-12   wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.2s" style="position: absolute;top:-10px;left:120px">
+                                    <h1 style="font-size:20px;font-family:arial black, sans-serif;color:#1C8A43;line-height: 1.1em">
+                                        CONTACT US </h1 >
                                         
-                                <div class="contact-info center991 ">
-                                    <strong><h4><adress class="h4" style="font-size: 22px; color: #91b868 ">CROPZONIA SEEDS PRIVATE LIMITED.<br></strong>
-                                    </adress></h4>  
-                                </div>
-                         
-                                <br>
-                                <strong><p style="color:black;">Registered Office :</p> </strong> 
+                                <div class="contact-info" style="position:absolute;top:10px">
+                                    <h1 style="font-size: 20px; color: #1C8A43;font-family:arial black, sans-serif;font-weight: bold; line-height: normal;">CROPZONIA SEEDS PRIVATE LIMITED.<br>
+                                    </h1>  
+                               
+                              
+                                
+                                <h4 style="color:#221B23;font-size: 15px;font-family:arial, sans-serif;font-weight: bold;line-height: 0.1px; ">Registered Office :</h4>
                            
-                                         
-                                    <p style="color:black;font-size:16px"> RZ-46 A, Gali No. 1,G Block,<br> Sita Puri II, Delhi, India 110052</p>
+                                 
+                                        
+                                    <p style="color:black;font-size: 13px;font-family:arial, sans-serif;font-weight: normal; line-height: normal;"> RZ-46 A, Gali No. 1,G Block,<br> Sita Puri II, Delhi, India 110052</p>
+                                    
+                                    
                                      
+                                    <br>
                                     
-
+                                    <h4 style="color:#221B23;font-size: 15px;font-family:arial, sans-serif;font-weight: bold;line-height: 0.1px;margin-top:0px; ">Corporate Office</h4>
                                     
-                                        <br>
-                                    <strong><p style="color:black;">Corporate Office</p></strong>
-
                        
                         
-                                    
-                                         <p style="color:black;">Cropzonia House, Nariman Point, Marine Lines,Vinay K Shah Marg,<br> Nariman Point, Mumbai, India 400021</p>
-                                     
-                                   
+                                       
+                                         <p style="color:black;font-size: 13px;font-family:arial, sans-serif;font-weight: normal; line-height: normal;">Cropzonia House, Nariman Point, Marine Lines,Vinay K Shah Marg,<br> Nariman Point, Mumbai, India 400021</p>
+
+                                         <br>
+                                     <div style="line-height: 1.1em;text-decoration: none;font-family: signika,sans-serif;font-weight: lighter;">
+                                     <h1 style="color:#FFC802;font-size: 32px;"> Call us today</h1>
+                                     <h1 style="color:#FFC802;font-size: 32px;">+91 88029 86907
+
+                                    </h1>
+                                    <h1 style="color:#FFC802;font-size: 32px;">Email Address:</h1>
+                                    <h1 style="color:#FFC802;font-size: 32px;">
+                                        <a href="mailto:info@cropzoniaseeds.com 
+                                    ">
+                                         info@cropzoniaseeds.com 
+
+                                    </a>  
+                                    </h1>
+                                     </div>
+                                </div>
 
                         </div>             
                                  
                         
                 
                 
-                            <div class="container col-md-7 col-sm-12 col-xs-12 form-horizontal wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s" style="height: 100%; margin-top: 0px;padding-top: 0px;color:black">
+                            <div class="container  wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s" style="position:absolute;left:590px;height: 266px; margin-top: -70px;padding-top: 0px;color:black;width: 475px;font-size: 13px;color:#221B23;min-height: 324px;min-width: 180px;">
                                 
-                                <?php require "contactForm.php" ; ?>
+                                <form>
+                                 <input type="text" name="name" placeholder="Name" style="border:1px solid rgba(94, 115, 30, 1);width: 475px;margin-bottom:  5px;box-sizing: border-box;padding: 5px;">
+
+                                 <input type="email" name="email" placeholder="Email" style="border:1px solid rgba(94, 115, 30, 1);width: 475px;padding: 5px;box-sizing: border-box;margin-bottom:  5px;">
+
+                                 <input type="text" name="subject" placeholder="Subject" style="border:1px solid rgba(94, 115, 30, 1);width: 475px;padding: 5px;box-sizing: border-box;margin-bottom:  5px;">
+
+                                 <textarea name="message" placeholder="Message" style="border:1px solid rgba(94, 115, 30, 1);width: 475px;padding: 5px;box-sizing: border-box;margin-bottom:  5px;min-height: 130px;" ></textarea>
+
+                                    
+                                     <button style="background-color: rgba(255, 200, 2, 1);margin-left: 430px;border: 0px;padding: 5px;font-size: 16px;">Send
+                                     </button>
+                                
+                           </form>
+                        
                             </div>
                         </div>
                  
                 </section>
                      </main>
              <footer>
-                <div class="container-fluid text-center" style="padding-top: 0px;margin-top:0px ">
+                <!--<div class="container-fluid text-center" style="position: absolute; ">
                     <p class="copyright">
                         <a href=".././">Cropzonia</a> &#169; <span id="copyright-year"></span>.
                         <a class="text-primary" href="policy.php">Privacy Policy</a>
                     </p>
-                </div>
+                </div>-->
             </footer>
         </div>
 

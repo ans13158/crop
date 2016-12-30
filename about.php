@@ -273,89 +273,12 @@ require "header.php" ;
                         </div>
             <br>
             <br>
-            <div class="col-md-12 col-sm-12 col-xs-12 text-center wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s" style="background: white">
-                <br>
-                <br>
-                <h1 style="font-size: 49px;text-align: center;line-height: normal;letter-spacing: normal;margin-top: -20px;">
-                                    <span style="font-size: 49px">
-                                    <span style="font-family: georgia, 'palatino linotype',serif;">
-                                        <span style="color:#0D0D0D">
-                                            <span style="font-weight: normal;">
-                                                Making Quality Seeds
-                                            </span>
-                                        </span>
-                                    </span>
-                                    </span>
-                </h1> ​
+            
 
-                <h1 style="font-size: 49px;text-align: center;line-height: normal;letter-spacing: 2px;margin-top: -27px;word-spacing:13px;">
-                                    <span style="font-size: 49px">
-                                    <span style="font-family: georgia, 'palatino linotype',serif;">
-                                        <span style="color:#0D0D0D">
-                                            <span style="font-weight: bold;">
-                                                ACCESSIBLE TO EVERYONE
-                                            </span>
-                                            <div style="left:660px;width:32px;position: absolute;top:157px;height: 7px;border-bottom: 7px solid rgba(240, 116, 35, 1);height: 0 !important;min-height: 0 !important;">
-                                            </div>
-                                        </span>
-                                    </span>
-                                    </span>
-                                    </h1> ​
-
-                <br>
-                <div class="wow fadeInRight text-center" data-wow-duration="2s" data-wow-delay="0.6s" style="background: white;position: absolute;width: 216px;height: 219px;display: inline;left: 
-                290px;top: 226px">
-                    <br>
-                    <img class="img-circle about-img" src="images/about/ceo.jpg" alt="CEO" style="height: 219px;width:216px;object-fit: fill;padding-top: 0px;">
-                </div>
-
-               <div class="wow fadeInRight text-center" data-wow-duration="2s" data-wow-delay="0.6s" style="background: white;position: absolute;;width: 216px;height: 219px;display: inline;left: 570px;top:227px">
-                    <br>
-                    <img class="img-circle about-img" src="images/about/guy1.jpg" alt="guy1" style="height: 219px;width:216px;object-fit: fill;padding-top: 0px;">
-                </div>
-
-                <div class="wow fadeInRight text-center" data-wow-duration="2s" data-wow-delay="0.6s" style="background: white;position: absolute;;width: 216px;height: 219px;display: inline;left: 855px;top:228px">
-                    <br>
-                    <img class="img-circle about-img" src="images/about/guy2.jpg" alt="guy2" style="height: 219px;width:216px;object-fit: fill;padding-top: 0px;">
-                </div>
                 
-                <br>
-                <br>
-                <div class=" wow fadeIn text-center" data-wow-duration="2s" data-wow-delay="0.6s" style="line-height: 0.8em;color: #4D4A4A;position:absolute;top:495px;left:335px;background: white;">
-                    <br>
-                    <h1 class="text-center" style="font-size:18px;font-style:italic;font-weight: bold;font-family: georgia,'palatino linotype',serif;letter-spacing: normal;word-spacing: normal;">S K MANJHI</h1>
-                  </div>
-
-                <div class=" wow fadeIn text-center" data-wow-duration="2s" data-wow-delay="0.6s" style="line-height: 0.8em;color: #4D4A4A;position:absolute;top:530px;left:332px;background: white;">
-                   <h1 class="text-center" style="font-size:18px;font-style:italic;font-weight: normal;font-family: georgia,'palatino linotype',serif;letter-spacing: normal;left:15px">Founder & CEO</h1>
-                    <a href="https://in.linkedin.com/in/skmanjhiczs"> <img src="images/about/linkedinLogo.png" style="height: 42px;width: 42px; background: transparent;"></a>
-                </div>
-                
-                <div class=" wow fadeIn text-center" data-wow-duration="2s" data-wow-delay="0.6s" style="line-height: 0.8em;color: #4D4A4A;position:absolute;top:495px;left:625px;background: white;">
-                    <br>
-                    <h1 class="text-center" style="font-size:18px;font-style:italic;font-weight: bold;font-family: georgia,'palatino linotype',serif;letter-spacing: normal;word-spacing: normal;">JANE DOE</h1>
-                  </div>
-
-                <div class=" wow fadeIn text-center" data-wow-duration="2s" data-wow-delay="0.6s" style="line-height: 0.8em;color: #4D4A4A;position:absolute;top:530px;left:652px;background: white;">
-                   <h1 class="text-center" style="font-size:18px;font-style:italic;font-weight: normal;font-family: georgia,'palatino linotype',serif;letter-spacing: normal;left:15px">CFO</h1>
-                    <a href="https://in.linkedin.com/in/skmanjhiczs"> <img src="images/about/linkedinLogo.png" style="height: 42px;width: 42px; background: transparent;"></a>
-                </div>
-                
-
-                <div class=" wow fadeIn text-center" data-wow-duration="2s" data-wow-delay="0.6s" style="line-height: 0.8em;color: #4D4A4A;position:absolute;top:495px;left:900px;background: white;">
-                    <br>
-                    <h1 class="text-center" style="font-size:18px;font-style:italic;font-weight: bold;font-family: georgia,'palatino linotype',serif;letter-spacing: normal;word-spacing: normal;">JAMES DOE</h1>
-                  </div>
-
-                <div class=" wow fadeIn text-center" data-wow-duration="2s" data-wow-delay="0.6s" style="line-height: 0.8em;color: #4D4A4A;position:absolute;top:530px;left:932px;background: white;">
-                   <h1 class="text-center" style="font-size:18px;font-style:italic;font-weight: normal;font-family: georgia,'palatino linotype',serif;letter-spacing: normal;left:15px">CTO</h1>
-                    <a href="https://in.linkedin.com/in/skmanjhiczs"> <img src="images/about/linkedinLogo.png" style="height: 42px;width: 42px background: transparent;"></a>
-                </div>
-                </div>
-            </div>
 
             </section>
-            <section class="well5">
+            <section class="well5" style="margin-top:-150px;">
                 <div class="container-fluid">
                     <div class="row">
 
@@ -386,7 +309,7 @@ require "header.php" ;
                            
                         </div>
 
-                        <div class="col-md-12 col-sm-12 col-xs-12    text-center wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s" style="margin-top: 190px;padding-top: 190px;">
+                        <div class="col-md-12 col-sm-12 col-xs-12    text-center wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s" style="margin-top: 10px;padding-top: 190px;">
                             <img src="images/about/coreValues.jpg" class="img-circle" style="width:440px;height: 460px;object-fit: cover">
                         </div>
 
